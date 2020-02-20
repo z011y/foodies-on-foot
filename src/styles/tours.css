@@ -1,0 +1,169 @@
+.purple-circle {
+  position: absolute;
+  height: 900px;
+  width: 900px;
+  background-color: #e8daef;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transform: translate(200px, 200px);
+}
+
+.tours__overview {
+  height: calc(100vh - 75px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-image: url('../images/4x/background-tours.png');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.see-below {
+  color: #a569bd;
+}
+
+span {
+  color: #a569bd;
+}
+
+.tours__overview > h1 {
+  font-size: 90px;
+  text-align: center;
+}
+
+.tour {
+  height: 100vh;
+  width: 100%;
+}
+
+.tour__navbar {
+  height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.oxbow-navbar {
+  background-color: #c8e6c9;
+}
+
+.mill-navbar {
+  background-color: #ffecb3;
+}
+
+.sonoma-navbar {
+  background-color: #e8daef;
+}
+
+.segway-navbar {
+  background-color: #bdbdbd;
+}
+
+.tour__logo {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oxbow-market {
+  background-color: #c8e6c9;
+}
+
+.historic-napa-mill {
+  background-color: #ffecb3;
+}
+
+.sonoma-square {
+  background-color: #e8daef;
+}
+
+.segway {
+  background-color: #bdbdbd;
+}
+
+.tour__content {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 125px;
+}
+
+.oxbow-img {
+  background-image: url("../images/market.jpg");
+}
+
+.mill-img {
+  background-image: url("../images/mill.jpg");
+}
+
+.sonoma-img {
+  background-image: url("../images/sonoma.jpg");
+}
+
+.segway-img {
+  background-image: url("../images/segway.jpg");
+}
+
+.tour__content__title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tour__content__title > h1 {
+  font-size: 100px;
+  color: white;
+  /* box-shadow: inset 0 -70px 0 #c8e6c9; */
+  padding: 10px;
+}
+
+.tour__content__info {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px 0 #424242;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.tour__content__info__items {
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.tour__content__info__items > ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.segway-items {
+  line-height: 10px;
+}
+
+.tour__img {
+  width: 100%;
+  height: 100%;
+  max-height: 50%;
+  border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+@import "./home.css";
+@import "./header.css";
+@import "./tours.css";
+@import "./about.css";
+@import "./footer.css";
+
+html {
+  font-size: 62.5%; 
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background-color: #d2d2d2;
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+h1 {
+  font-weight: 700 !important;
+}
