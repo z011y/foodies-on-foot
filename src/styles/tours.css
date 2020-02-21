@@ -74,6 +74,22 @@ span {
   align-items: center;
 }
 
+.reserve-tours {
+  height: 50px;
+  width: 120px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 0 black;
+  line-height: 50px;
+  text-align: center;
+  color: black;
+  transition: 0.25s ease-in-out;
+}
+
+.reserve-tours:hover {
+  box-shadow: none;
+}
+
 .oxbow-market {
   background-color: #c8e6c9;
 }

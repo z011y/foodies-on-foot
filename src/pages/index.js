@@ -15,6 +15,9 @@ const IndexPage = () => (
       {/* <img src={Logo} className="hero__logo" /> */}
       Foodies on Foot
       </div>
+      <Link to="/tours" className="see-tours-btn">
+        See Tours
+      </Link>
       <div className="subtitle-wrapper">
         <h1>Nibbling Napa and Sampling Sonoma - One Bite at a Time</h1>
       </div>
@@ -23,7 +26,7 @@ const IndexPage = () => (
     <div className="overview">
       <img src={Cookie} alt="cookie" className="cookie"/>
       <h1 className="overview-title">Welcome to Foodies on Foot! Visit us in Napa and Sonoma.</h1>
-      <h4 className="overview-text">We invite you to a unique blend of history and culinary adventure.  Enjoy the tastes of Napa – a small area downtown that probably has more top restaurants then anywhere in the United States.  Or the flavors of Sonoma Square- where California won its independence!</h4>
+      <h4 className="overview-text">We invite you to a unique blend of history and culinary adventure.  Enjoy the tastes of Napa – a small area downtown that probably has more top restaurants than anywhere in the United States.  Or the flavors of Sonoma Square - where California won its independence!</h4>
     </div>
   </Layout>
 )

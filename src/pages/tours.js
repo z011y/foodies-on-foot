@@ -31,6 +31,9 @@ const ToursPage = () => (
       <div className="tour__content oxbow-img">
         <div className="tour__content__title">
           <h1>Oxbow Market</h1>
+          <Link to="/tours" className="reserve-tours">
+            Reserve Now
+          </Link>
         </div>
         <div className="tour__content__info">
           <h3>$79 each</h3>
@@ -71,6 +74,9 @@ const ToursPage = () => (
       <div className="tour__content mill-img">
         <div className="tour__content__title">
           <h1>Historic Napa Mill</h1>
+          <Link to="/tours" className="reserve-tours">
+            Reserve Now
+          </Link>
         </div>
         <div className="tour__content__info">
           <h3>$79 each</h3>
@@ -106,6 +112,9 @@ const ToursPage = () => (
       <div className="tour__content sonoma-img">
         <div className="tour__content__title">
           <h1>Sonoma Square</h1>
+          <Link to="/tours" className="reserve-tours">
+            Reserve Now
+          </Link>
         </div>
         <div className="tour__content__info">
           <h3>$85 each</h3>
@@ -143,6 +152,9 @@ const ToursPage = () => (
       <div className="tour__content segway-img">
         <div className="tour__content__title">
           <h1>Segway Tours</h1>
+          <Link to="/tours" className="reserve-tours">
+            Reserve Now
+          </Link>
         </div>
         <div className="tour__content__info">
           <h3>$109 each</h3>

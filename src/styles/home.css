@@ -23,6 +23,25 @@
   border-radius: 10px;
 }
 
+.see-tours-btn {
+  font-size: 20px;
+  background-color: white;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0 black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  color: #a569bd;
+  transition: 0.25s ease-in-out;
+}
+
+.see-tours-btn:hover {
+  box-shadow: none;
+}
+
 .subtitle-wrapper {
   display: flex;
   justify-content: center;

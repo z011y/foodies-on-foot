@@ -16,13 +16,13 @@ const AboutPage = () => (
       <p>
         Here in the Napa and Sonoma Valley we have BOTH! Napa, Sonoma,
         Yountville, Saint Helena and Calistoga are all small towns yet host a
-        number of Michelin Star, TripAdvisor, Yelp! and AAA diamond rated
+        number of Michelin Star, TripAdvisor, Yelp and AAA diamond rated
         eateries.
 
 
-        With Foodies On Foot, we tailor a tour to include top TripAdvisor and
-        Yelp! reviewed restaurants (Like a Pub Crawl, without the hangover) and
-        sample one of their signature creations.
+        With Foodies On Foot, we tailor our tours to include top TripAdvisor and
+        Yelp reviewed restaurants and
+        sample one of their signature creations. Like a Pub Crawl, without the hangover!
 
 
         We have done exhaustive research eating at hundreds of restaurants

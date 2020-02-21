@@ -42,8 +42,9 @@ const Layout = ({ children }) => {
             </div>
 
           </div>
+
           <div className="reviews">
-            Review us on
+            Leave a review on
             <a className="yelp" href="https://www.yelp.com/biz/foodies-on-foot-napa?osq=foodies+on+foot" target="blank">Yelp</a> 
             or
             <a className="tripadvisor" target="blank" href="https://www.tripadvisor.com/Attraction_Review-g32766-d6534585-Reviews-Foodies_on_Foot-Napa_Napa_Valley_California.html">Tripadvisor</a>

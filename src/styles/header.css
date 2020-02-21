@@ -47,7 +47,7 @@ img {
 .links-wrapper {
   justify-self: end;
   display: flex;
-  width: 33%;
+  width: 50%;
   justify-content: space-around;
   align-items: center;
 }
@@ -57,4 +57,32 @@ a {
   font-weight: 700;
   text-decoration: none;
   color: #a569bd;
+}
+
+.reserve {
+  height: 50px;
+  width: 120px;
+  box-shadow: 5px 5px 10px 0 #e8daef;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+  color: #a569bd;
+  transition: 0.25s ease-in-out;
+}
+
+.reserve:hover {
+  box-shadow: none;
+
+}
+
+.social-links {
+  
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links > a {
+  font-size: 25px;
 }
