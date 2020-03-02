@@ -17,18 +17,18 @@
   align-items: center;
   flex-direction: column;
   padding: 50px;
-  background-image: url('../images/4x/background-tours.png');
+  background-image: url("../images/4x/splash-grn_1.png");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
 }
 
 .see-below {
-  color: #a569bd;
+  color: #81c784;
 }
 
 span {
-  color: #a569bd;
+  color: #81c784;
 }
 
 .tours__overview > h1 {
